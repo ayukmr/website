@@ -1,0 +1,96 @@
+{% macro title(title) %}
+<h1>
+    <a id="logo" href="{{ current_path | regex_replace(pattern=`/\d+/?$`, rep="") | regex_replace(pattern=`[^/]+/?$`, rep="") }}"></a>
+
+    {{ title }}
+</h1>
+{% endmacro %}
+
+{% macro favicon(url) %}
+<img src="https://icons.duckduckgo.com/ip3/{{ url | regex_replace(pattern=`^https?://([^/]*)/?.*`, rep="$1") }}.ico">
+{% endmacro %}
+
+{% macro post(post) %}
+{% if post.extra.link %}
+    <div class="favicon-link">
+        {{ macros::favicon(url=post.extra.link.url) }}
+
+        <a href="{{ post.extra.link.url }}">{{ post.extra.link.title }}</a>
+    </div>
+
+    {% if post.extra.via %}
+    <br>
+        <div class="favicon-link via">
+            {{ macros::favicon(url=post.extra.via.url) }}
+
+            via <a href="{{ post.extra.via.url }}">{{ post.extra.via.title }}</a>
+        </div>
+    {% endif %}
+
+    {{ post.content | safe }}
+{% else %}
+    {{ post.content | safe }}
+{% endif %}
+{% endmacro %}
+
+{% macro posts() %}
+{% for post in paginator.pages %}
+    <section>
+        <h3>
+            {% if post.extra.link %}
+                <i data-lucide="link"></i>
+            {% else %}
+                <i data-lucide="align-left"></i>
+            {% endif %}
+
+            <a href="{{ post.path }}">{{ post.title }}</a>
+        </h3>
+
+        {% if post.extra.link %}
+        <div class="favicon-link">
+            {{ macros::favicon(url=post.extra.link.url) }}
+
+            <a href="{{ post.extra.link.url }}">{{ post.extra.link.title }}</a>
+        </div>
+        {% endif %}
+
+        {{ post.content | safe }}
+
+        {{ post.date | date(format="%F") }}
+
+        <span class="spacer">-</span>
+
+        {% for tag in post.taxonomies.tags %}
+            <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+    </section>
+
+    {% if not loop.last %}
+        <hr>
+    {% endif %}
+{% else %}
+    <section>
+        <blockquote>
+            No posts were found.
+        </blockquote>
+    </section>
+{% endfor %}
+
+<nav id="pagination">
+    <span>
+        <i data-lucide="chevron-left"></i><a
+            {% if paginator.previous %}
+                href="{{ paginator.previous }}"
+            {% endif %}
+        >Newer</a>
+    </span>
+
+    <span>
+        <a
+            {% if paginator.next %}
+                href="{{ paginator.next }}"
+            {% endif %}
+        >Older</a><i data-lucide="chevron-right"></i>
+    </span>
+</nav>
+{% endmacro %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+<title>{{ section.title }}</title>
+
+<link rel="stylesheet" href="/styles/posts.css">
+{% endblock %}
+
+{% block content %}
+<header>
+    {{ macros::title(title=section.title) }}
+
+    <i data-lucide="tags"></i>
+    <a href="/tags">Tags</a>
+
+    <span class="spacer">-</span>
+
+    <i data-lucide="rss"></i>
+    <a href="/atom.xml">Feed</a>
+</header>
+
+{{ macros::posts(posts=paginator.pages) }}
+{% endblock %}

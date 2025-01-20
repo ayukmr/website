@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>404: Not Found</title>
+
+<link rel="stylesheet" href="/styles/index.css">
+<script src="/src/background.js" defer></script>
+{% endblock %}
+
+{% block content %}
+<header id="content">
+    <h1>404: Not Found</h1>
+    <p>The requested page was unable to be found.</p>
+
+    <i data-lucide="corner-down-left"></i>
+    <a href="/">Return to home</a>
+</header>
+
+<canvas id="background"></canvas>
+{% endblock %}

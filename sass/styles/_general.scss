@@ -1,0 +1,36 @@
+h1 {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 1.85rem;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.spacer {
+  margin: 0 2px;
+}
+
+.lucide {
+  width: 16px;
+  margin-right: 1px;
+  vertical-align: top;
+}
+
+.logo {
+  width: 16px;
+  height: 16px;
+
+  translate: 0 6.5px;
+  margin: 0 2px 4px 0;
+}
+
+.favicon-link {
+  display: inline-flex;
+  align-items: center;
+
+  img {
+    width: 14px;
+    height: 14px;
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+<title>#{{ term.name }}</title>
+
+<link rel="stylesheet" href="/styles/posts.css">
+{% endblock %}
+
+{% block content %}
+<header>
+    {{ macros::title(title="#" ~ term.name) }}
+</header>
+
+{{ macros::posts(posts=term.pages) }}
+{% endblock %}

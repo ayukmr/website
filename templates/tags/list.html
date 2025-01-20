@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+<title>{{ taxonomy.name | title }}</title>
+{% endblock %}
+
+{% block content %}
+<header>
+    {{ macros::title(title=taxonomy.name | title) }}
+</header>
+
+<section>
+    <ul>
+        {% for tag in terms %}
+            <li>
+                <a href="{{ tag.path }}">#{{ tag.name }}</a>
+                ({{ tag.page_count }})
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}

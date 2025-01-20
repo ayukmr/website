@@ -1,0 +1,38 @@
+#pages h3:not(:first-of-type) {
+  margin-top: 31px;
+}
+
+#content {
+  width: fit-content;
+}
+
+#background {
+  position: absolute;
+
+  top:  0;
+  left: 0;
+
+  pointer-events: none;
+  z-index: -100;
+
+  filter:    brightness(95%);
+  animation: background-appear 1.5s linear;
+
+  @media (prefers-color-scheme: dark) {
+    filter: brightness(72.5%);
+  }
+
+  @media (prefers-reduced-motion) {
+    display: none;
+  }
+}
+
+@keyframes background-appear {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}

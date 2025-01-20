@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+<title>ayukmr</title>
+
+<link rel="stylesheet" href="/styles/index.css">
+<script src="/src/background.js" defer></script>
+{% endblock %}
+
+{% block content %}
+<div id="content">
+    <header>
+        {{ macros::title(title="ayukmr") }}
+
+        <a href="https://github.com/ayukmr"><img class="logo" style="mix-blend-mode: difference; filter: invert(100%);" src="assets/logos/github.svg"></a>
+
+        <span class="spacer"></span>
+
+        <a href="https://bsky.app/profile/ayukmr.com"><img class="logo" src="assets/logos/bluesky.svg"></a>
+
+        <span class="spacer"></span>
+
+        <a href="https://news.ycombinator.com/user?id=ayukmr"><img class="logo" src="assets/logos/ycombinator.svg"></a>
+
+        <span class="spacer"></span>
+
+        <a href="mailto:contact@ayukmr.com"><img class="logo" src="assets/logos/gmail.svg"></a>
+    </header>
+
+    <section id="pages">
+        <h3>
+            <i data-lucide="heart"></i>
+            <a href="about">About</a>
+        </h3>
+        Information about this site.
+
+        <h3>
+            <i data-lucide="club"></i>
+            <a href="blog">Blog</a>
+        </h3>
+        Linkblog with a few articles.
+
+        <h3>
+            <i data-lucide="diamond"></i>
+            <a href="https://octalwise.com">Octalwise</a>
+        </h3>
+        Software company.
+    </section>
+</div>
+
+<canvas id="background"></canvas>
+{% endblock %}

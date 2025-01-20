@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+<title>{{ page.title }}</title>
+
+<link rel="stylesheet" href="/styles/post.css">
+{% endblock %}
+
+{% block content %}
+<header>
+    {{ macros::title(title=page.title) }}
+
+    {% if page.date %}
+        {{ page.date | date(format="%Y-%m-%d @ %l %p") }}
+    {% endif %}
+
+    {% if page.taxonomies.tags %}
+        <span class="spacer">-</span>
+
+        {% for tag in page.taxonomies.tags %}
+            <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+    {% endif %}
+</header>
+
+{% if not page.extra.sections %}
+    <section>
+        {{ macros::post(post=page) }}
+    </section>
+{% else %}
+    {{ macros::post(post=page) }}
+{% endif %}
+{% endblock %}
