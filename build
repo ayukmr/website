@@ -1,11 +1,10 @@
 #!/usr/bin/env sh
 
-url="$(
-  curl -s https://api.github.com/repos/getzola/zola/releases/latest \
-    | grep -o 'https://github.com/.*unknown-linux-gnu.tar.gz'
-)"
+git clone https://github.com/getzola/zola
+cd zola
 
-curl -L "$url" -o zola.tar.gz
-tar xzf zola.tar.gz
+cargo build --release
+export PATH="$PWD/target/release:$PATH"
 
-./zola build
+cd ..
+zola build
