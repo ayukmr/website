@@ -1,5 +1,11 @@
 @use 'post';
 
+h3 {
+  font-family: 'Libre Caslon Text', serif;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
 section:has(+ hr) {
   margin-bottom: 0;
 }

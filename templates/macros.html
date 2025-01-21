@@ -36,15 +36,7 @@
 {% macro posts() %}
 {% for post in paginator.pages %}
     <section>
-        <h3>
-            {% if post.extra.link %}
-                <i data-lucide="link"></i>
-            {% else %}
-                <i data-lucide="align-left"></i>
-            {% endif %}
-
-            <a href="{{ post.path }}">{{ post.title }}</a>
-        </h3>
+        <h3>{{ post.title }}</h3>
 
         {% if post.extra.link %}
         <div class="favicon-link">
@@ -54,7 +46,19 @@
         </div>
         {% endif %}
 
+        {% if post.extra.via %}
+            <br>
+
+            <div class="favicon-link via">
+                {{ macros::favicon(url=post.extra.via.url) }}
+
+                via <a href="{{ post.extra.via.url }}">{{ post.extra.via.title }}</a>
+            </div>
+        {% endif %}
+
         {{ post.content | safe }}
+
+        <a href="{{ post.path }}">#</a>
 
         {{ post.date | date(format="%F") }}
 
