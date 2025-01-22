@@ -13,6 +13,8 @@ paginate_by = 5
 paginate_path = ""
 
 [markdown]
+smart_punctuation = true
+
 highlight_code  = true
 highlight_theme = "css"
 highlight_themes_css = [
