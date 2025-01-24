@@ -4,11 +4,12 @@ date: 2025-01-15T11:00:00-08:00
 taxonomies:
   tags:
     - ai
+    - openai
     - slashdot
 extra:
   link:
     url: https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why
-    title: o1 'thinks' in Chinese
+    title: o1 ‘thinks’ in Chinese
   via:
     url: https://slashdot.org/story/25/01/14/239246
     title: Slashdot
