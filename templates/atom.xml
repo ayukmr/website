@@ -15,25 +15,19 @@
             <published>{{ page.date | date(format="%+") }}</published>
             <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
 
-            {% for author in page.authors %}
-                <author>
-                    <name>{{ author }}</name>
-                </author>
-            {% else %}
-                <author>
-                    <name>{{ config.author }}</name>
-                </author>
-            {% endfor %}
+            <author>
+                <name>{{ config.author }}</name>
+            </author>
 
             <link rel="alternate" type="text/html" href="{{ page.permalink | safe }}" />
             <id>{{ page.permalink | safe }}</id>
 
             <content type="html" xml:base="{{ page.permalink | escape_xml | safe }}">
                 {% if page.extra.link %}
-                    <a href="{{ page.extra.link.url }}">{{ page.extra.link.title }}</a>
+                    &lt;a href="{{ page.extra.link.url }}"&gt;{{ page.extra.link.title }}&lt;/a&gt;
 
                     {% if page.extra.via %}
-                        (<a href="{{ page.extra.via.url }}">via</a>)
+                        (&lt;a href="{{ page.extra.via.url }}">via&lt;/a&gt;)
                     {% endif %}
                 {% endif %}
 
