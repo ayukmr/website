@@ -3,6 +3,7 @@ title: TikTok Ban-or-Sale
 date: 2025-01-17T14:00:00-08:00
 taxonomies:
   tags:
+    - politics
     - waxy
 extra:
   link:
