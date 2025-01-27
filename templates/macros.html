@@ -37,24 +37,32 @@
 {% macro posts() %}
 {% for post in paginator.pages %}
     <section>
-        <h3>{{ post.title }}</h3>
+        <h3>
+            {% if "starred" in post.taxonomies.tags %}
+                <i data-lucide="star" fill="currentColor"></i>
+            {% endif %}
+
+            {{ post.title }}
+
+            <a class="permalink" href="{{ post.path }}">#</a>
+        </h3>
 
         {% if post.extra.link %}
-        <div class="favicon-link">
-            {{ macros::favicon(url=post.extra.link.url) }}
+            <div class="favicon-link">
+                {{ macros::favicon(url=post.extra.link.url) }}
 
-            <a href="{{ post.extra.link.url }}">{{ post.extra.link.title }}</a>
-        </div>
-        {% endif %}
-
-        {% if post.extra.via %}
-            <br>
-
-            <div class="favicon-link via">
-                {{ macros::favicon(url=post.extra.via.url) }}
-
-                via <a href="{{ post.extra.via.url }}">{{ post.extra.via.title }}</a>
+                <a href="{{ post.extra.link.url }}">{{ post.extra.link.title }}</a>
             </div>
+
+            {% if post.extra.via %}
+                <br>
+
+                <div class="favicon-link via">
+                    {{ macros::favicon(url=post.extra.via.url) }}
+
+                    via <a href="{{ post.extra.via.url }}">{{ post.extra.via.title }}</a>
+                </div>
+            {% endif %}
         {% endif %}
 
         {{ post.content | safe }}

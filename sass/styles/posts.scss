@@ -6,6 +6,14 @@ h3 {
   font-size: 1.3em;
 }
 
+.permalink {
+  margin-left: 4px;
+}
+
+h3:not(:hover) .permalink {
+  display: none;
+}
+
 section:has(+ hr) {
   margin-bottom: 0;
 }

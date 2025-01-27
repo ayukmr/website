@@ -3,6 +3,7 @@ title: AGI “for Humanity”
 date: 2025-01-22T09:00:00-08:00
 taxonomies:
   tags:
+    - starred
     - ai
     - openai
 ---
