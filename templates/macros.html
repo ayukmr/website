@@ -38,7 +38,7 @@
 {% for post in paginator.pages %}
     <section>
         <h3>
-            {% if "starred" in post.taxonomies.tags %}
+            {% if "★" in post.taxonomies.tags %}
                 <i data-lucide="star" fill="currentColor"></i>
             {% endif %}
 
