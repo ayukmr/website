@@ -6,7 +6,7 @@ let grid = Array.from(
   { length: 125 },
   () => Array.from(
     { length: 125 },
-    () => Math.random() > 0.875
+    () => Math.random() < 0.125
   )
 );
 
@@ -20,29 +20,33 @@ function clear() {
   const left = Math.round(pos.left / scale) - 6;
   const top  = Math.round(pos.top  / scale) - 5;
 
-  Array.from({ length: height }).forEach((_, y) => {
-    Array.from({ length: width }).forEach((_, x) => {
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
       const pX = x + left;
       const pY = y + top;
 
       grid[pY][pX] = false;
-    });
-  });
+    }
+  }
 }
 
-function step() {
-  grid = grid.map((row, r) => {
-    return row.map((cell, c) => {
-      const neighbors =
-        [-1, 0, 1].flatMap((dr) => (
-          [-1, 0, 1].map((dc) => (
-            (dr || dc) && grid[r + dr]?.[c + dc] ? 1 : 0
-          ))
-        )).reduce((a, b) => a + b);
+const neighbors = [
+  [-1, -1], [0, -1], [1, -1],
+  [-1,  0],          [1,  0],
+  [-1,  1], [0,  1], [1,  1],
+];
 
-      return neighbors === 3 || (cell && neighbors === 2) ? 1 : 0;
-    });
-  });
+function step() {
+  grid = grid.map((row, y) => (
+    row.map((cell, x) => {
+      const count =
+        neighbors.reduce((acc, [dx, dy]) => (
+          acc + (grid[y + dy]?.[x + dx] ? 1 : 0)
+        ), 0);
+
+      return count === 3 || (cell && count === 2);
+    })
+  ));
 }
 
 function render() {
