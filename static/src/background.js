@@ -22,10 +22,12 @@ function clear() {
 
   for (let y = 0; y < height; y++) {
     for (let x = 0; x < width; x++) {
-      const pX = x + left;
-      const pY = y + top;
+      const px = x + left;
+      const py = y + top;
 
-      grid[pY][pX] = false;
+      if (grid[py]?.[px]) {
+        grid[py][px] = false;
+      }
     }
   }
 }
