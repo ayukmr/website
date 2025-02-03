@@ -15,6 +15,7 @@ extra:
     title: Simon Willison
 ---
 
+Sam Altman, in response to a request to release model weights:
 > yes, we are discussing. i personally think we have been on the wrong side of history here and need to figure out a different open source strategy; not everyone at openai shares this view, and it's also not our current highest priority.
 
 I saw this comment on Slashdot yesterday, but didn't realize that it came from Altman's _personal_ Reddit account. I previously assumed that Altman said this in a conversation with some politician, where absolutely nothing could be taken literally without considering OpenAI's motives.
