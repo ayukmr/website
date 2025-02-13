@@ -7,7 +7,7 @@ taxonomies:
     - apple
 extra:
   link:
-    title: Apple partners with Alibaba for AI features
+    title: Apple partners with Alibaba for AI features in China
     url: https://theinformation.com/articles/apple-partners-with-alibaba-to-develop-ai-features-for-iphone-users-in-china
   via:
     title: Daring Fireball
