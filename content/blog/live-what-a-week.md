@@ -13,4 +13,4 @@ extra:
     title: Hacker News
 ---
 
-A truly incredible project which includes variants for the [day](https://tintin.dlazaro.ca/day), [week](https://tintin.dlazaro.ca/week), [month](https://tintin.dlazaro.ca/month), and [year](https://tintin.dlazaro.ca/month). In terms of the technical details, not using JavaScript is an interesting design goal, though it doesn't seem too necessary for such a small website which relies on client-side info.
+A truly incredible project which includes variants for the [day](https://tintin.dlazaro.ca/day), [week](https://tintin.dlazaro.ca/week), [month](https://tintin.dlazaro.ca/month), and [year](https://tintin.dlazaro.ca/year). In terms of the technical details, not using JavaScript is an interesting design goal, though it doesn't seem too necessary for such a small website which relies on client-side info.
