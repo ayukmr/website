@@ -19,4 +19,4 @@ In terms of hardware, the SE line has always had to have some diminished specs t
 
 Like previous SEs, the phone features an up-to-date A18 chip, though as noted before, scoring well in benchmarks is very different to the actual tasks that users of the phone will actually be doing. This leads to the main reasoning behind the large differentiation in hardware between the iPhone 16e and normal iPhone 16, since the chip can't serve as a large place of comparison between the phones.
 
-Contrary to what seemingly a lot of people are saying, I think the 16e gets you a much better phone at a much better price compared to the third-gen iPhone SE, but I still don't think it's really worth its price compared to a last-gen phone.
+Contrary to seemingly what a lot of people are saying, I think the 16e gets you a much better phone at a much better price compared to the third-gen iPhone SE, but I still don't think it's really worth its price compared to a last-gen phone.
