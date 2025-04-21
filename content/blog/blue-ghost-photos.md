@@ -21,4 +21,4 @@ extra:
     )
 }}
 
-The Firefly Blue Ghost lander touched down on the moon yesterday, and photos from the mission are publically available. Interestingly the photos are specifically hosted on Flickr rather than on Firefly's website, but nevertheless, there a lot of incredible photos from different angles of the mission. I particularly love [this picture](https://flickr.com/photos/fireflyspace/54362872324/in/album-72177720313239766) of a lunar sunrise, and [this video](https://flickr.com/photos/fireflyspace/54353240540/) of the moon fly by is also great.
+The Firefly Blue Ghost lander touched down on the moon yesterday, and photos from the mission are publicly available. Interestingly the photos are specifically hosted on Flickr rather than on Firefly's website, but nevertheless, there a lot of incredible photos from different angles of the mission. I particularly love [this picture](https://flickr.com/photos/fireflyspace/54362872324/in/album-72177720313239766) of a lunar sunrise, and [this video](https://flickr.com/photos/fireflyspace/54353240540/) of the moon fly by is also great.
