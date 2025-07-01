@@ -1,6 +1,6 @@
 ---
 title: Phoenix for Bluesky
-date: 2025-03-06T09:00:00-08:00
+date: 2025-03-06T09:00:00-07:00
 taxonomies:
   tags:
     - app
