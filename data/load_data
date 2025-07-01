@@ -1,0 +1,23 @@
+#!/usr/bin/env zsh
+
+repos="[]"
+
+for owner in 'octalwise' 'ayukmr'; do
+  dir="$(dirname "$0")"
+
+  data="$(curl -fsL "https://api.github.com/users/$owner/repos?per_page=100&page=1")"
+
+  rows="$(
+    echo "$data" |
+      jq -r '[.[] | { repo: .full_name, name: .name, desc: .description, lang: .language, img: .owner.avatar_url }]'
+  )"
+
+  filtered="$(
+    echo "$rows" |
+      jq --argjson curated "$(cat "$dir/curated.json")" 'map(select(.repo as $r | $curated | index($r)))'
+  )"
+
+  repos="$(echo "$filtered" | jq --argjson input "$repos" '$input + .')"
+done
+
+echo "$repos" > "$dir/repos.json"

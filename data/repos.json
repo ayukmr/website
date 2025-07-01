@@ -1,0 +1,289 @@
+[
+  {
+    "repo": "octalwise/acidity",
+    "name": "acidity",
+    "desc": "Safari extension for archive.ph",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/98297934?v=4"
+  },
+  {
+    "repo": "octalwise/fleuron",
+    "name": "fleuron",
+    "desc": "Android client for Miniflux",
+    "lang": "Dart",
+    "img": "https://avatars.githubusercontent.com/u/98297934?v=4"
+  },
+  {
+    "repo": "octalwise/tracks",
+    "name": "tracks",
+    "desc": "iOS app for live Caltrain tracking",
+    "lang": "Swift",
+    "img": "https://avatars.githubusercontent.com/u/98297934?v=4"
+  },
+  {
+    "repo": "octalwise/tracks-server",
+    "name": "tracks-server",
+    "desc": "API caching server for Tracks",
+    "lang": "Crystal",
+    "img": "https://avatars.githubusercontent.com/u/98297934?v=4"
+  },
+  {
+    "repo": "ayukmr/anatase",
+    "name": "anatase",
+    "desc": "JS rendering library using WGPU and Rust",
+    "lang": "Rust",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/bandsaw",
+    "name": "bandsaw",
+    "desc": "Webapp for converting a Google Sheet into a Canvas CSV",
+    "lang": "Rust",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/blocks",
+    "name": "blocks",
+    "desc": "WGPU-based block rendering",
+    "lang": "Rust",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/catena-webapp",
+    "name": "catena-webapp",
+    "desc": "Minimalistic frontend for The Nexus",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/cifarcnn",
+    "name": "cifarcnn",
+    "desc": "CNN trained on the CIFAR dataset",
+    "lang": "Python",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/deimos",
+    "name": "deimos",
+    "desc": "Convert images to Desmos graphs",
+    "lang": "Python",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/dotfiles",
+    "name": "dotfiles",
+    "desc": "Personal dotfiles for various tools",
+    "lang": "Vim Script",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/ferrite",
+    "name": "ferrite",
+    "desc": "Command-line editor with syntax highlighting",
+    "lang": "Rust",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/ftc-2023",
+    "name": "ftc-2023",
+    "desc": "Nueva FTC code for the POWERPLAY season",
+    "lang": "Java",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/glaze",
+    "name": "glaze",
+    "desc": "LLVM-based language and compiler",
+    "lang": "Ruby",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/greenland",
+    "name": "greenland",
+    "desc": "Top-down game made in Unity",
+    "lang": "C#",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/grub",
+    "name": "grub",
+    "desc": "Command-line tool for viewing Markdown with GitHub styles",
+    "lang": "CSS",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/hive-webapp",
+    "name": "hive-webapp",
+    "desc": "Multiplayer game using Python bots",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/kingfisher",
+    "name": "kingfisher",
+    "desc": "Assembly-like language for Brainf",
+    "lang": "Ruby",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/launchtab",
+    "name": "launchtab",
+    "desc": "Command-line tool for using crontab files with launchctl",
+    "lang": "Ruby",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/lixel-webapp",
+    "name": "lixel-webapp",
+    "desc": "Multi-user pixel art tool",
+    "lang": "Svelte",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/lyre-webapp",
+    "name": "lyre-webapp",
+    "desc": "Simple online chess webapp",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/nn",
+    "name": "nn",
+    "desc": "Simple deep learning library",
+    "lang": "Rust",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/piquant-webapp",
+    "name": "piquant-webapp",
+    "desc": "Bookmarking tool in the style of Delicious",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/poplar",
+    "name": "poplar",
+    "desc": "Simple x86 boot sector and kernel",
+    "lang": "Assembly",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/qt-task",
+    "name": "qt-task",
+    "desc": "Qt-based task manager with task difficulties",
+    "lang": "Python",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/quark",
+    "name": "quark",
+    "desc": "Command-line tool for quickly jumping to directories",
+    "lang": "Crystal",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/raven",
+    "name": "raven",
+    "desc": "Minimalistic stylesheet for semantic HTML",
+    "lang": "Less",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/robin",
+    "name": "robin",
+    "desc": "TUI for Zoom Team Chat using Urwid",
+    "lang": "Python",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/rubiler",
+    "name": "rubiler",
+    "desc": "Transpiler for a custom language",
+    "lang": "Ruby",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/sherbet",
+    "name": "sherbet",
+    "desc": "Reverse polish notation calculator in Haskell",
+    "lang": "Haskell",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/shrew-webapp",
+    "name": "shrew-webapp",
+    "desc": "FRC team scouting webapp",
+    "lang": "Clojure",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/sketchgan",
+    "name": "sketchgan",
+    "desc": "GAN trained on the Quick, Draw! dataset",
+    "lang": "Python",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/sodium",
+    "name": "sodium",
+    "desc": "Enhanced version of ls using Rust",
+    "lang": "Rust",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/stationery",
+    "name": "stationery",
+    "desc": "PVZ-like game for Playdate",
+    "lang": "Lua",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/todobox-webapp",
+    "name": "todobox-webapp",
+    "desc": "Powerful task manager with many features",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/traffic",
+    "name": "traffic",
+    "desc": "Tile-based traffic simulation using Skia",
+    "lang": "Rust",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/tumbleweed",
+    "name": "tumbleweed",
+    "desc": "Arcade-style game for Playdate",
+    "lang": "Lua",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/website",
+    "name": "website",
+    "desc": "Personal website with blog",
+    "lang": "HTML",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/wikigraph",
+    "name": "wikigraph",
+    "desc": "Interactive graph based on a personal wiki",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/wordle",
+    "name": "wordle",
+    "desc": "Recreation of the game Wordle",
+    "lang": "JavaScript",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  },
+  {
+    "repo": "ayukmr/zest",
+    "name": "zest",
+    "desc": "Command-line tool for managing config files",
+    "lang": "Ruby",
+    "img": "https://avatars.githubusercontent.com/u/106888004?v=4"
+  }
+]

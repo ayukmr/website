@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+<title>{{ page.title }}</title>
+
+<link rel="stylesheet" href="/styles/projects.css">
+{% endblock %}
+
+{% block content %}
+{% set repos = load_data(path="data/repos.json") %}
+
+<header>
+    {{ macros::title(title=page.title) }}
+</header>
+
+<section>
+    {% for repo in repos %}
+        <div class="repo">
+            <h3>
+                <img class="owner" src="{{ repo.img }}">
+                /
+                <a href="github.com/{{repo.repo}}">
+                    {{ repo.name }}
+                </a>
+            </h3>
+
+            <p>
+                <span class="lang">{{ repo.lang }}</span>
+                - {{ repo.desc }}.
+            </p>
+        </div>
+    {% endfor %}
+</section>
+{% endblock %}
