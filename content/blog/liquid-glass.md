@@ -3,8 +3,8 @@ title: Liquid Glass
 date: 2025-06-10T17:00:00-07:00
 taxonomies:
   tags:
-    - apple
     - starred
+    - apple
 ---
 
 The main highlight of this year's WWDC was definitely the new design language starring _Liquid Glass_. I'm not a huge fan of this new material but it is definitely interesting, and really reminds me of the old Aqua UI. These changes feel like they follow the same trend that Material 3 Expressive implemented, where previously solid blocks of color were replaced with nice glassy blurred backgrounds. However, since iOS already implemented blur in many places, it feels like Apple just felt like making the UI even _more_ glassy, leading to the creation of a completely glass material.
