@@ -3,6 +3,8 @@
 
 {% block head %}
 <title>{{ taxonomy.name | title }}</title>
+
+<link rel="stylesheet" href="/styles/tags.css">
 {% endblock %}
 
 {% block content %}
@@ -11,13 +13,12 @@
 </header>
 
 <section>
-    <ul>
-        {% for tag in terms %}
-            <li>
-                <a href="{{ tag.path }}">#{{ tag.name }}</a>
-                ({{ tag.page_count }})
-            </li>
-        {% endfor %}
-    </ul>
+    {% for tag in terms %}
+        <div class="tag">
+            <a href="{{ tag.path }}">#{{ tag.name }}</a>
+            <span class="separator"></span>
+            <span>{{ tag.page_count }} posts</span>
+        </div>
+    {% endfor %}
 </section>
 {% endblock %}

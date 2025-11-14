@@ -1,14 +1,25 @@
+@font-face {
+  font-family: 'LibreCaslonCondensed';
+  src: url('/ttf/LibreCaslonCondensed.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
-  font-family: 'Libre Caslon Text', serif;
-  font-size: 1.85rem;
+  font-family: LibreCaslonCondensed, serif;
+  font-size: 1.85em;
   font-weight: normal;
   margin-bottom: 8px;
 }
 
 h2 {
-  font-family: 'Libre Caslon Text', serif;
+  font-family: LibreCaslonCondensed, serif;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.35em;
+}
+
+h2 .lucide {
+  height: 25px;
 }
 
 .spacer {
@@ -31,16 +42,4 @@ a:has(.lucide) {
 
   translate: 0 6.5px;
   margin: 0 2px 4px 0;
-}
-
-.favicon-link {
-  display: inline-flex;
-  align-items: center;
-
-  img {
-    width: 14px;
-    height: 14px;
-    margin: 0 6px 0 0;
-    vertical-align: middle;
-  }
 }
