@@ -12,22 +12,6 @@ section:has(+ hr) {
   margin-bottom: 0;
 }
 
-.link {
-  margin-bottom: 15px;
-}
-
-.favicon-link {
-  display: inline-flex;
-  align-items: center;
-
-  img {
-    width: 14px;
-    height: 14px;
-    margin: 0 6px 0 0;
-    vertical-align: middle;
-  }
-}
-
 a:not([href]) {
   color: var(--link);
   opacity: 50%;

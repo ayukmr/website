@@ -43,3 +43,20 @@ a:has(.lucide) {
   translate: 0 6.5px;
   margin: 0 2px 4px 0;
 }
+
+.link {
+  margin-bottom: 15px;
+}
+
+.favicon-link {
+  display: inline-flex;
+  align-items: center;
+
+  img {
+    width: 14px;
+    height: 14px;
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+  }
+}
+
