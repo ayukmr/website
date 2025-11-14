@@ -37,7 +37,7 @@
 {% macro posts() %}
 {% for post in paginator.pages %}
     <section>
-        <h3>
+        <h2>
             {% if "starred" in post.taxonomies.tags %}
                 <i data-lucide="star" fill="currentColor"></i>
             {% endif %}
@@ -45,7 +45,7 @@
             {{ post.title }}
 
             <a class="permalink" href="{{ post.path }}">#</a>
-        </h3>
+        </h2>
 
         {% if post.extra.link %}
             <div class="favicon-link">

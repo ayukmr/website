@@ -1,16 +1,10 @@
 @use 'post';
 
-h3 {
-  font-family: 'Libre Caslon Text', serif;
-  font-weight: normal;
-  font-size: 1.3em;
-}
-
 .permalink {
   margin-left: 4px;
 }
 
-h3:not(:hover) .permalink {
+h2:not(:hover) .permalink {
   display: none;
 }
 
