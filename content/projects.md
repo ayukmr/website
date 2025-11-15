@@ -33,7 +33,7 @@ From-scratch vision system written and deployed for FRC.
 ### Acidity
 
 [{{ icon(name="globe") }}](https://octalwise.com/acidity)
-Safari extension for archive.ph with >4.5k users.
+Safari extension for archive.ph with >5,000 users.
 
 ### Fleuron
 
@@ -63,7 +63,7 @@ GAN trained on the Quick, Draw! dataset, using PyTorch.
 {% section() %}
 ## Full-Stack
 
-### Todobox
+### TodoBox
 
 [{{ icon(name="github") }}](https://github.com/ayukmr/todobox-webapp)
 Task manager with a React frontend and Python backend using Firebase.
