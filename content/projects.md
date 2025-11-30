@@ -12,6 +12,9 @@ extra:
 [{{ icon(name="globe") }}](https://octalwise.com/tracks)
 Native apps for monitoring live Caltrain timings.
 
+* Published to the
+[{{ icon(name="download") }}](https://apps.apple.com/app/tracks-live-caltrain-app/id6480351976) App Store and
+[{{ icon(name="download") }}](https://play.google.com/store/apps/details?id=com.octalwise.tracks) Play Store.
 * iOS app written in Swift/SwiftUI.
 * Android app written in Dart/Flutter.
 * Server written in Crystal.
@@ -33,12 +36,16 @@ From-scratch vision system written and deployed for FRC.
 ### Acidity
 
 [{{ icon(name="globe") }}](https://octalwise.com/acidity)
-Safari extension for archive.ph with >5,000 users.
+Safari extension for archive.ph written in JavaScript.
+
+* Published to the [{{ icon(name="download") }}](https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023) App Store with >5,000 users.
 
 ### Fleuron
 
 [{{ icon(name="globe") }}](https://octalwise.com/fleuron)
 Android app for the Miniflux feed reader, written in Dart/Flutter.
+
+* Published to the [{{ icon(name="download") }}](https://play.google.com/store/apps/details?id=com.octalwise.fleuron) Play Store.
 
 ### Bleed
 
