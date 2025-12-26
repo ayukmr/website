@@ -2,13 +2,9 @@ const c = document.querySelector('#background');
 const ctx = c.getContext('2d');
 const content = document.querySelector('#content');
 
-let grid = Array.from(
-  { length: 125 },
-  () => Array.from(
-    { length: 125 },
-    () => Math.random() < 0.125
-  )
-);
+let grid = Array.from({ length: 125 }, () => (
+  Array.from({ length: 125 }, () => Math.random() < 0.125)
+));
 
 function clear() {
   const pos = content.getBoundingClientRect();
