@@ -1,13 +1,13 @@
 {% macro title(title) %}
 <h1>
-    <a id="logo" href="{{ current_path | regex_replace(pattern=`/\d+/?$`, rep="") | regex_replace(pattern=`[^/]+/?$`, rep="") }}"></a>
+    <a id="logo" href="/"></a>
 
     {{ title }}
 </h1>
 {% endmacro %}
 
 {% macro favicon(url) %}
-<img src="https://icons.duckduckgo.com/ip3/{{ url | regex_replace(pattern=`^https?://([^/]*)/?.*`, rep="$1") }}.ico">
+<img src="https://icons.duckduckgo.com/ip3/{{ url | replace(from="https://", to="") | replace(from="http://", to="") | split(pat="/") | first }}.ico">
 {% endmacro %}
 
 {% macro post(post) %}
