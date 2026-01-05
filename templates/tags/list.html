@@ -16,7 +16,8 @@
     {% for tag in terms %}
         <div class="tag">
             <a href="{{ tag.path }}">#{{ tag.name }}</a>
-            <span>({{ tag.page_count }} posts)</span>
+            <span class="separator"></span>
+            <span>{{ tag.page_count }} posts</span>
         </div>
     {% endfor %}
 </section>
