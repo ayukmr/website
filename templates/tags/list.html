@@ -17,7 +17,7 @@
         <div class="tag">
             <a href="{{ tag.path }}">#{{ tag.name }}</a>
             <span class="separator"></span>
-            <span>{{ tag.page_count }} posts</span>
+            <span>{{ tag.pages | length }} posts</span>
         </div>
     {% endfor %}
 </section>
