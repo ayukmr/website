@@ -1,9 +1,8 @@
 ---
 title: Em Dashes
-date: 2025-05-11T15:00:00-07:00
+date: 2025-05-11
 taxonomies:
   tags:
-    - starred
     - ai
 ---
 

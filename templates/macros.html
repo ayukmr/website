@@ -36,78 +36,38 @@
 {% endif %}
 {% endmacro %}
 
-{% macro posts() %}
-{% for post in paginator.pages %}
-    <section>
-        <h2>
-            {% if "starred" in post.taxonomies.tags %}
-                <i data-lucide="star" fill="currentColor"></i>
-            {% endif %}
+{% macro posts(posts) %}
+{% for year, posts in posts | group_by(attribute="year") %}
+<section>
+    <h2>{{ year }}</h2>
 
-            {{ post.title }}
-
-            <a class="permalink" href="{{ post.path }}">#</a>
-        </h2>
-
-        {% if post.extra.link %}
-            <div class="link">
-                <div class="favicon-link">
-                    {{ macros::favicon(url=post.extra.link.url) }}
-
-                    <a href="{{ post.extra.link.url }}">{{ post.extra.link.title }}</a>
-                </div>
-
-                {% if post.extra.via %}
-                    <br>
-
-                    <div class="favicon-link via">
-                        {{ macros::favicon(url=post.extra.via.url) }}
-
-                        via <a href="{{ post.extra.via.url }}">{{ post.extra.via.title }}</a>
-                    </div>
+    {% for post in posts %}
+        <div>
+            <span class="title">
+                {% if "starred" in post.taxonomies.tags %}
+                    <i data-lucide="star" fill="currentColor"></i>
+                {% elif post.extra.link %}
+                    <i data-lucide="link"></i>
+                {% else %}
+                    <i data-lucide="dot" fill="currentColor"></i>
                 {% endif %}
+
+                <a href="{{ post.path }}">
+                    {{ post.title }}
+                </a>
+            </span>
+
+            <div style="float:right">
+                {{ post.date | date(format="%F") }}
             </div>
-        {% endif %}
-
-        {{ post.content | safe }}
-
-        <a href="{{ post.path }}">#</a>
-
-        {{ post.date | date(format="%F") }}
-
-        <span class="spacer">-</span>
-
-        {% for tag in post.taxonomies.tags %}
-            <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>{% if not loop.last %},{% endif %}
-        {% endfor %}
-    </section>
-
-    {% if not loop.last %}
-        <hr>
-    {% endif %}
+        </div>
+    {% endfor %}
+</section>
 {% else %}
-    <section>
-        <blockquote>
-            No posts were found.
-        </blockquote>
-    </section>
+<section>
+    <blockquote>
+        No posts were found.
+    </blockquote>
+</section>
 {% endfor %}
-
-<nav id="pagination">
-    <span>
-        <i data-lucide="chevron-left"></i><a
-            {% if paginator.previous %}
-                href="{{ paginator.previous }}"
-            {% endif %}
-        >Newer</a>
-    </span>
-
-    <span>
-        <a
-            {% if paginator.next %}
-                href="{{ paginator.next }}"
-            {% endif %}
-        >Older</a><i data-lucide="chevron-right"></i>
-    </span>
-</nav>
 {% endmacro %}

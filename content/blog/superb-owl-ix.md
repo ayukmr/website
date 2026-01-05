@@ -1,6 +1,6 @@
 ---
 title: Superb Owl Sunday IX
-date: 2025-02-09T21:00:00-08:00
+date: 2025-02-09
 taxonomies:
   tags:
     - photos

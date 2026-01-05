@@ -1,23 +1,20 @@
 base_url = "https://ayukmr.com"
 
-title  = "ayukmr"
+title = "ayukmr"
 author = "Ayush Kumar"
 
-compile_sass   = true
+compile_sass = true
 generate_feeds = true
 
 [[taxonomies]]
 name = "tags"
-feed = true
-paginate_by = 5
-paginate_path = ""
 
 [markdown]
 smart_punctuation = true
 
-highlight_code  = true
+highlight_code = true
 highlight_theme = "css"
 highlight_themes_css = [
     { theme = "OneHalfLight", filename = "styles/syntax-light.css" },
-    { theme = "OneHalfDark",  filename = "styles/syntax-dark.css" },
+    { theme = "OneHalfDark", filename = "styles/syntax-dark.css" },
 ]

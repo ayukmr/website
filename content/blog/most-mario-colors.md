@@ -1,6 +1,6 @@
 ---
 title: The Most Mario Colors
-date: 2025-01-21T13:00:00-08:00
+date: 2025-01-21
 taxonomies:
   tags:
     - gaming

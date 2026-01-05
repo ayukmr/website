@@ -1,6 +1,6 @@
 ---
 title: Ndea
-date: 2025-01-15T19:00:00-08:00
+date: 2025-01-15
 taxonomies:
   tags:
     - ai

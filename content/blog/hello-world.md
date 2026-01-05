@@ -1,6 +1,6 @@
 ---
 title: Hello, World
-date: 2025-01-09T17:00:00-08:00
+date: 2025-01-08
 taxonomies:
   tags:
     - blog

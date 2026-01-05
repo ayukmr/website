@@ -1,6 +1,6 @@
 ---
-title: OpenAI Building a Social Network
-date: 2025-04-17T12:00:00-07:00
+title: OpenAI Is Building a Social Network
+date: 2025-04-17
 taxonomies:
   tags:
     - ai

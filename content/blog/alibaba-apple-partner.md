@@ -1,6 +1,6 @@
 ---
 title: Apple Partners with Alibaba for AI
-date: 2025-02-12T16:00:00-08:00
+date: 2025-02-12
 taxonomies:
   tags:
     - ai

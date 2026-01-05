@@ -1,6 +1,6 @@
 ---
-title: Galaxy S25 is Identical to S24
-date: 2025-01-26T22:00:00-08:00
+title: The Galaxy S25 is Identical to the S24
+date: 2025-01-26
 taxonomies:
   tags:
     - android

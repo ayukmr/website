@@ -1,6 +1,6 @@
 ---
 title: New Glenn Launch
-date: 2025-01-16T09:00:00-08:00
+date: 2025-01-16
 taxonomies:
   tags:
     - space

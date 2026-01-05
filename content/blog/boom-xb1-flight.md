@@ -1,6 +1,6 @@
 ---
 title: Boom XB-1 Flight Test
-date: 2025-01-28T22:00:00-08:00
+date: 2025-01-28
 taxonomies:
   tags:
     - hacker-news

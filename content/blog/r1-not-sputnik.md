@@ -1,9 +1,8 @@
 ---
 title: DeepSeek-R1 is not Sputnik
-date: 2025-01-30T09:00:00-08:00
+date: 2025-01-30
 taxonomies:
   tags:
-    - starred
     - ai
 ---
 

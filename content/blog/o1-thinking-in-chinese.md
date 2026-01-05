@@ -1,6 +1,6 @@
 ---
-title: o1 Thinking In Chinese
-date: 2025-01-15T11:00:00-08:00
+title: o1 Sometimes Thinks In Chinese
+date: 2025-01-15
 taxonomies:
   tags:
     - ai
@@ -9,7 +9,7 @@ taxonomies:
 extra:
   link:
     url: https://techcrunch.com/2025/01/14/openais-ai-reasoning-model-thinks-in-chinese-sometimes-and-no-one-really-knows-why
-    title: o1 ‘thinks’ in Chinese
+    title: OpenAI’s AI reasoning model ‘thinks’ in Chinese sometimes
   via:
     url: https://slashdot.org/story/25/01/14/239246
     title: Slashdot

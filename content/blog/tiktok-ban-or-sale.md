@@ -1,6 +1,6 @@
 ---
 title: TikTok Ban-or-Sale
-date: 2025-01-17T14:00:00-08:00
+date: 2025-01-17
 taxonomies:
   tags:
     - politics
@@ -8,7 +8,7 @@ taxonomies:
 extra:
   link:
     url: https://washingtonpost.com/politics/2025/01/17/titktok-ban-supreme-court-decision-ruling
-    title: Supreme Court upholds TikTok ban-or-sale
+    title: Supreme Court upholds TikTok ban-or-sale law
   via:
     url: https://waxy.org/2025/01/supreme-court-upholds-tiktok-ban-or-sale-law-slated-to-start-sunday
     title: Waxy.org

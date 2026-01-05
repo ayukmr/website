@@ -1,6 +1,6 @@
 ---
 title: Nintendo Switch 2
-date: 2025-01-16T14:00:00-08:00
+date: 2025-01-16
 taxonomies:
   tags:
     - gaming
@@ -8,7 +8,7 @@ taxonomies:
 extra:
   link:
     url: https://youtube.com/watch?v=itpcsQQvgAQ
-    title: Nintendo Switch 2 first look trailer
+    title: Nintendo Switch 2 first-look trailer
   via:
     url: https://news.ycombinator.com/item?id=42724621
     title: Hacker News

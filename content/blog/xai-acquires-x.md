@@ -1,6 +1,6 @@
 ---
 title: xAI Acquires X
-date: 2025-03-28T17:00:00-08:00
+date: 2025-03-28
 taxonomies:
   tags:
     - the-verge

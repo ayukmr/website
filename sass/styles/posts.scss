@@ -1,37 +1,11 @@
 @use 'post';
 
-.permalink {
-  margin-left: 4px;
+section {
+  line-height: 1.1;
 }
 
-h2:not(:hover) .permalink {
-  display: none;
-}
-
-section:has(+ hr) {
-  margin-bottom: 0;
-}
-
-a:not([href]) {
-  color: var(--link);
-  opacity: 50%;
-  cursor: not-allowed;
-}
-
-a:not([href]) + .lucide,
-.lucide:has(+ a:not([href])) {
-  opacity: 50%;
-}
-
-#pagination {
-  display: flex;
-  justify-content: space-between;
-
-  .lucide {
-    margin: 0;
-  }
-
-  a {
-    margin: 0 2px;
-  }
+section .title {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }

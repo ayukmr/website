@@ -1,18 +1,4 @@
-.tag {
-  display: flex;
-  width: 75%;
-}
-
 .tag a {
   font-family: LibreCaslonCondensed, serif;
   font-size: 18px;
-}
-
-.separator {
-  content: '';
-  flex-grow: 1;
-  border-bottom: 1px dotted var(--fg3);
-  translate: 0 13px;
-  height: 1px;
-  margin: 0 10px;
 }

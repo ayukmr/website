@@ -1,6 +1,6 @@
 ---
 title: iPhone SE in a Windows Phone Body
-date: 2025-02-18T08:00:00-08:00
+date: 2025-02-18
 taxonomies:
   tags:
     - slashdot

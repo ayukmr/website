@@ -1,6 +1,6 @@
 ---
 title: DeepSeek-R1
-date: 2025-01-20T18:00:00-08:00
+date: 2025-01-20
 taxonomies:
   tags:
     - ai
