@@ -42,7 +42,7 @@
     <h2>{{ year }}</h2>
 
     {% for post in posts %}
-        <div>
+        <div class="post">
             <span class="title">
                 {% if "starred" in post.taxonomies.tags %}
                     <i data-lucide="star" fill="currentColor"></i>
@@ -57,9 +57,7 @@
                 </a>
             </span>
 
-            <div style="float:right">
-                {{ post.date | date(format="%F") }}
-            </div>
+            {{ post.date | date(format="%F") }}
         </div>
     {% endfor %}
 </section>

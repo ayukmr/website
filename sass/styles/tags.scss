@@ -1,8 +1,18 @@
+section {
+  line-height: 1.6;
+}
+
 .tag {
   display: flex;
 }
 
-.separator {
+.tag .title {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tag .separator {
   content: '';
   flex-grow: 1;
   border-bottom: 1px dotted var(--fg3);
