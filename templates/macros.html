@@ -45,11 +45,11 @@
         <div class="post">
             <span class="title">
                 {% if "starred" in post.taxonomies.tags %}
-                    <i data-lucide="star" fill="currentColor"></i>
+                    <i data-lucide="star"></i>
                 {% elif post.extra.link %}
                     <i data-lucide="link"></i>
                 {% else %}
-                    <i data-lucide="dot" fill="currentColor"></i>
+                    <i data-lucide="dot"></i>
                 {% endif %}
 
                 <a href="{{ post.path }}">
