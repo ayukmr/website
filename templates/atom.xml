@@ -16,7 +16,7 @@
             <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
 
             <author>
-                <name>{{ config.author }}</name>
+                <name>{{ page.author | default(value="Ayush Kumar") }}</name>
             </author>
 
             <link rel="alternate" type="text/html" href="{{ page.permalink | safe }}" />

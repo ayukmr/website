@@ -4,7 +4,7 @@ title = "ayukmr"
 author = "Ayush Kumar"
 
 compile_sass = true
-generate_feeds = true
+generate_feed = true
 
 [[taxonomies]]
 name = "tags"
