@@ -12,7 +12,7 @@
     {{ macros::title(title=page.title) }}
 
     {% if page.date %}
-        {{ page.date | date(format="%F") }}
+        {{ page.date | date(format="%Y-%m-%d @ %l %p") }}
     {% endif %}
 
     {% if page.taxonomies.tags %}
