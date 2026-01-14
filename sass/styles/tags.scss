@@ -4,19 +4,20 @@ section {
 
 .tag {
   display: flex;
-}
 
-.tag .title {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
+  .title {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+  }
 
-.tag .separator {
-  content: '';
-  flex-grow: 1;
-  border-bottom: 1px dotted var(--fg3);
-  translate: 0 13px;
-  height: 1px;
-  margin: 0 10px;
+  .separator {
+    content: '';
+    flex-grow: 1;
+    border-bottom: 1px dotted var(--fg3);
+    translate: 0 13px;
+    height: 1px;
+    margin: 0 10px;
+  }
 }

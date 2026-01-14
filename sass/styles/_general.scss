@@ -1,3 +1,15 @@
+:root {
+  --visit:  #4422ee;
+  --visit2: #3311c0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --visit:  #7f7fff;
+    --visit2: #6666e0;
+  }
+}
+
 @font-face {
   font-family: LibreCaslonCondensed;
   src: url('/font/LibreCaslonCondensed.woff2') format('woff2');
@@ -16,10 +28,10 @@ h2 {
   font-family: LibreCaslonCondensed, serif;
   font-weight: normal;
   font-size: 1.35em;
-}
 
-h2 .lucide {
-  height: 26px;
+  .lucide {
+    height: 26px;
+  }
 }
 
 .spacer {
@@ -50,13 +62,12 @@ a:has(.lucide) {
 
 .favicon-link {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
 
   img {
     width: 14px;
     height: 14px;
-    margin: 0 6px 0 0;
-    vertical-align: middle;
+    margin: 4px 6px 4px 0;
+    translate: 0 1px;
   }
 }
-

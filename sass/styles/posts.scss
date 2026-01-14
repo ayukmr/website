@@ -5,10 +5,28 @@ section {
 .post {
   display: flex;
   justify-content: space-between;
-}
 
-.post .title {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  .title {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 5px;
+
+    .lucide {
+      translate: 0 1px;
+    }
+
+    a:visited {
+      color: var(--visit);
+
+      &:active {
+        color: var(--visit2);
+      }
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .date {
+      display: none;
+    }
+  }
 }

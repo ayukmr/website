@@ -57,7 +57,9 @@
                 </a>
             </span>
 
-            {{ post.date | date(format="%F") }}
+            <span class="date">
+                {{ post.date | date(format="%F") }}
+            </span>
         </div>
     {% endfor %}
 </section>
