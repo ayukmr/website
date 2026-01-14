@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+<link rel="stylesheet" href="/styles/projects.css">
+{% endblock %}
+
+{% block content %}
+<header>
+    {{ macros::title(title="Projects") }}
+</header>
+
+<section>
+    <h2>E2E</h2>
+
+    <div class="project">
+        <div class="info">
+            <h3>Tracks</h3>
+
+            <p>
+                <a href="https://octalwise.com/tracks">
+                    <i data-lucide="globe"></i>
+                </a>
+                Native apps for monitoring live Caltrain timings.
+            </p>
+
+            <ul>
+                <li>
+                    Published to the
+                    <a href="https://apps.apple.com/app/tracks-live-caltrain-app/id6480351976">
+                        <i data-lucide="download"></i>
+                    </a>
+                    App Store and
+                    <a href="https://play.google.com/store/apps/details?id=com.octalwise.tracks">
+                        <i data-lucide="download"></i>
+                    </a>
+                    Play Store.
+                </li>
+                <li>iOS app written in Swift/SwiftUI.</li>
+                <li>Android app written in Dart/Flutter.</li>
+                <li>Server written in Crystal.</li>
+            </ul>
+        </div>
+
+        <div class="images">
+            <img src="https://static.ayukmr.com/repos/tracks/1.png">
+            <img src="https://static.ayukmr.com/repos/tracks-flutter/2.png">
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>Dauntless</h3>
+
+    <p>
+        <a href="https://github.com/ayukmr/dauntless">
+            <i data-lucide="github"></i>
+        </a>
+        From-scratch vision system written and deployed for FRC.
+    </p>
+
+    <ul>
+        <li>Algorithm implemented from scratch in Rust.</li>
+        <li>Server written in Rust, deployed on Pi 5.</li>
+        <li>Client-side robot code written in Java.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Apps</h2>
+
+    <div class="project">
+        <div class="info">
+            <h3>Acidity</h3>
+
+            <p>
+                <a href="https://octalwise.com/acidity">
+                    <i data-lucide="globe"></i>
+                </a>
+                Safari extension for archive.ph written in JavaScript.
+            </p>
+
+            <p>
+                Published to the
+                <a href="https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023">
+                    <i data-lucide="download"></i>
+                </a>
+                App Store with &gt;5,000 users.
+            </p>
+        </div>
+
+        <img src="https://static.ayukmr.com/repos/acidity/1.png">
+    </div>
+
+    <hr>
+
+    <div class="project">
+        <div class="info">
+            <h3>Fleuron</h3>
+
+            <p>
+                <a href="https://octalwise.com/fleuron">
+                    <i data-lucide="globe"></i>
+                </a>
+                Android app for the Miniflux feed reader, written in Dart/Flutter.
+            </p>
+
+            <p>
+                Published to the
+                <a href="https://play.google.com/store/apps/details?id=com.octalwise.fleuron">
+                    <i data-lucide="download"></i>
+                </a>
+                Play Store.
+            </p>
+        </div>
+
+        <div class="images">
+            <img src="https://static.ayukmr.com/repos/fleuron/1.png">
+            <img src="https://static.ayukmr.com/repos/fleuron/2.png">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="project">
+        <div class="info">
+            <h3>Bleed</h3>
+
+            <p>
+                <a href="https://octalwise.com/bleed">
+                    <i data-lucide="globe"></i>
+                </a>
+                macOS app for a low battery indicator, written in Swift/SwiftUI.
+            </p>
+        </div>
+
+        <img src="https://static.ayukmr.com/repos/bleed/1.png">
+    </div>
+</section>
+
+<section>
+    <h2>ML</h2>
+
+    <h3>NN</h3>
+
+    <p>
+        <a href="https://github.com/ayukmr/nn">
+            <i data-lucide="github"></i>
+        </a>
+        Simple from-scratch deep learning library, written in Rust.
+    </p>
+
+    <hr>
+
+    <h3>SketchGAN</h3>
+
+    <p>
+        <a href="https://github.com/ayukmr/sketchgan">
+            <i data-lucide="github"></i>
+        </a>
+        GAN trained on the Quick, Draw! dataset, using PyTorch.
+    </p>
+</section>
+
+<section>
+    <h2>Full-Stack</h2>
+
+    <div class="project">
+        <div class="info">
+            <h3>TodoBox</h3>
+
+            <p>
+                <a href="https://github.com/ayukmr/todobox-webapp">
+                    <i data-lucide="github"></i>
+                </a>
+                Task manager with a React frontend and Python backend using Firebase.
+            </p>
+        </div>
+
+        <img src="https://static.ayukmr.com/repos/todobox/1.png">
+    </div>
+
+    <hr>
+
+    <div class="project">
+        <div class="info">
+            <h3>Piquant</h3>
+
+            <p>
+                <a href="https://github.com/ayukmr/piquant-webapp">
+                    <i data-lucide="github"></i>
+                </a>
+                Bookmarking website with a React frontend and Ruby backend using SQL.
+            </p>
+        </div>
+
+        <img src="https://static.ayukmr.com/repos/piquant/1.png">
+    </div>
+</section>
+
+<section>
+    <h2>Hackery</h2>
+
+    <div class="project">
+        <div class="info">
+            <h3>Poplar</h3>
+
+            <p>
+                <a href="https://github.com/ayukmr/poplar">
+                    <i data-lucide="github"></i>
+                </a>
+                Simple x86 boot sector and kernel, in Assembly and C.
+            </p>
+        </div>
+
+        <img src="https://static.ayukmr.com/repos/poplar/1.png">
+    </div>
+
+    <hr>
+
+    <h3>Glaze</h3>
+
+    <p>
+        <a href="https://github.com/ayukmr/glaze">
+            <i data-lucide="github"></i>
+        </a>
+        Compiler for a new language, written in Ruby using LLVM.
+    </p>
+
+    <hr>
+
+    <h3>Dotfiles</h3>
+
+    <p>
+        <a href="https://github.com/ayukmr/dotfiles">
+            <i data-lucide="github"></i>
+        </a>
+        Personal configs for various tools, notably Vim.
+    </p>
+</section>
+
+<section>
+    <h2>Games</h2>
+
+    <div class="project">
+        <div class="info">
+            <h3>Greenland</h3>
+
+            <p>
+                <a href="https://github.com/ayukmr/greenland">
+                    <i data-lucide="github"></i>
+                </a>
+                Top-down game written in C#/Unity.
+            </p>
+        </div>
+
+        <img src="https://static.ayukmr.com/repos/greenland/1.png">
+    </div>
+
+    <hr>
+
+    <div class="project">
+        <div class="info">
+            <h3>Stationery</h3>
+
+            <p>
+                <a href="https://github.com/ayukmr/stationery">
+                    <i data-lucide="github"></i>
+                </a>
+                PVZ-like game for Playdate, written in Lua.
+            </p>
+        </div>
+
+        <img src="https://static.ayukmr.com/repos/stationery/1.png">
+    </div>
+</section>
+{% endblock %}
