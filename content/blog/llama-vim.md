@@ -1,6 +1,6 @@
 ---
 title: llama.vim
-date: 2025-01-23
+date: 2025-01-23T22:00:00-08:00
 taxonomies:
   tags:
     - ai

@@ -1,6 +1,6 @@
 ---
 title: Nokia on the iPhone Launch
-date: 2025-01-16
+date: 2025-01-16T21:00:00-08:00
 taxonomies:
   tags:
     - apple

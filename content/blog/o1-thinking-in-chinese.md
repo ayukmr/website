@@ -1,6 +1,6 @@
 ---
 title: o1 Sometimes Thinks In Chinese
-date: 2025-01-15
+date: 2025-01-15T11:00:00-08:00
 taxonomies:
   tags:
     - ai

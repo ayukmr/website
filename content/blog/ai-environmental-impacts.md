@@ -1,6 +1,6 @@
 ---
 title: Individual AI Use’s Environmental Impacts
-date: 2025-01-18
+date: 2025-01-18T22:00:00-08:00
 taxonomies:
   tags:
     - ai

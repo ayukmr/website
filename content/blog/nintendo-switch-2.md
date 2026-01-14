@@ -1,6 +1,6 @@
 ---
 title: Nintendo Switch 2
-date: 2025-01-16
+date: 2025-01-16T14:00:00-08:00
 taxonomies:
   tags:
     - gaming

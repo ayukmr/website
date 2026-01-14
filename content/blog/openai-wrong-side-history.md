@@ -1,6 +1,6 @@
 ---
 title: OpenAI Has Been on the Wrong Side of History
-date: 2025-02-02
+date: 2025-02-02T18:00:00-08:00
 taxonomies:
   tags:
     - ai

@@ -1,6 +1,6 @@
 ---
 title: iPhone 17 Camera Rumors
-date: 2025-02-24
+date: 2025-02-24T11:00:00-08:00
 taxonomies:
   tags:
     - apple

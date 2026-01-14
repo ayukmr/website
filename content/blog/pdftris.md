@@ -1,6 +1,6 @@
 ---
 title: PDFtris
-date: 2025-01-09
+date: 2025-01-09T21:00:00-08:00
 taxonomies:
   tags:
     - hacker-news

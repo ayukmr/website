@@ -1,6 +1,6 @@
 ---
 title: iPhone 16e
-date: 2025-02-20
+date: 2025-02-20T08:00:00-08:00
 taxonomies:
   tags:
     - starred

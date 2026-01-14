@@ -1,6 +1,6 @@
 ---
 title: Auctioned iPhones with TikTok
-date: 2025-01-25
+date: 2025-01-25T21:00:00-08:00
 taxonomies:
   tags:
     - hacker-news

@@ -1,6 +1,6 @@
 ---
 title: A Tiny Wasm Compiler
-date: 2025-01-25
+date: 2025-01-25T21:30:00-08:00
 taxonomies:
   tags:
     - simon-willison

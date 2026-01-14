@@ -1,6 +1,6 @@
 ---
 title: Blue Ghost Photos
-date: 2025-03-03
+date: 2025-03-03T10:00:00-07:00
 taxonomies:
   tags:
     - space
