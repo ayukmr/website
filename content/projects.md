@@ -51,7 +51,7 @@ From-scratch vision system written and deployed for FRC.
 [{{ icon(name="globe") }}](https://octalwise.com/acidity)
 Safari extension for archive.ph written in JavaScript.
 
-* Published to the [{{ icon(name="download") }}](https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023) App Store with >5,000 users.
+Published to the [{{ icon(name="download") }}](https://apps.apple.com/us/app/acidity-view-page-archives/id6472630023) App Store with >5,000 users.
 {% end %}
 
 ![](https://static.ayukmr.com/repos/acidity/1.png)
@@ -66,7 +66,7 @@ Safari extension for archive.ph written in JavaScript.
 [{{ icon(name="globe") }}](https://octalwise.com/fleuron)
 Android app for the Miniflux feed reader, written in Dart/Flutter.
 
-* Published to the [{{ icon(name="download") }}](https://play.google.com/store/apps/details?id=com.octalwise.fleuron) Play Store.
+Published to the [{{ icon(name="download") }}](https://play.google.com/store/apps/details?id=com.octalwise.fleuron) Play Store.
 {% end %}
 
 {% proj_img() %}
