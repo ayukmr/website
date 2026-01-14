@@ -1,0 +1,32 @@
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+hr {
+  margin: 20px 0 20px;
+}
+
+.project + hr {
+  margin: 15px 0 20px;
+}
+
+.project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+
+  p:has(img) {
+    margin: 0;
+  }
+
+  img {
+    height: 200px;
+    margin: 0;
+    max-width: unset;
+  }
+}
