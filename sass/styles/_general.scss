@@ -17,6 +17,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Cozette;
+  src: url('/font/CozetteVector.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
   font-family: LibreCaslonCondensed, serif;
   font-size: 1.85em;
@@ -25,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-family: LibreCaslonCondensed, serif;
+  font-family: Cozette, serif;
   font-weight: normal;
   font-size: 1.35em;
 

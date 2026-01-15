@@ -1,3 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  .lucide {
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+  }
+
+  img {
+    image-rendering: pixelated;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #icon-about {
+    content: url("/assets/icons/about-dark.png");
+  }
+  #icon-blog {
+    content: url("/assets/icons/blog-dark.png");
+  }
+  #icon-projects {
+    content: url("/assets/icons/projects-dark.png");
+  }
+  #icon-octalwise {
+    content: url("/assets/icons/octalwise-dark.png");
+  }
+}
+
 #pages h2:not(:first-of-type) {
   margin-top: 35px;
 }
