@@ -15,8 +15,11 @@ The source code is available on [GitHub](https://github.com/ayukmr/website).
 {% section() %}
 ## Socials
 
-<span style="mix-blend-mode: difference; filter: invert(100%);">{{ logo(name="github") }}</span> [GitHub](https://github.com/ayukmr) \
-{{ logo(name="bluesky") }} [Bluesky](https://bsky.app/profile/ayukmr.com) \
-{{ logo(name="ycombinator") }} [Hacker News](https://news.ycombinator.com/user?id=ayukmr) \
-{{ logo(name="gmail") }} [Mail](mailto:contact@ayukmr.com)
+{{ logo_link(name="github", text="GitHub", link="https://github.com/ayukmr", invert=true) }}
+<br>
+{{ logo_link(name="bluesky", text="Bluesky", link="https://bsky.app/profile/ayukmr.com") }}
+<br>
+{{ logo_link(name="ycombinator", text="Hacker News", link="https://news.ycombinator.com/user?id=ayukmr") }}
+<br>
+{{ logo_link(name="gmail", text="Mail", link="mailto:contact@ayukmr.com") }}
 {% end %}

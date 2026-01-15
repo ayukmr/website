@@ -1,0 +1,7 @@
+{% if invert %}
+<span style="mix-blend-mode: difference; filter: invert(100%);">
+    <img class="logo" src="assets/logos/{{ name }}.svg">
+</span>
+{% else %}
+<img class="logo" src="assets/logos/{{ name }}.svg">
+{% endif %} <a href="{{ link }}">{{ text }}</a>
