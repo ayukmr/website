@@ -1,9 +1,10 @@
 ---
-title: Apple's Icon Regression
+title: Apple’s Icon Regression
 date: 2026-01-18T21:00:00-08:00
 taxonomies:
   tags:
     - apple
+    - hacker-news
 extra:
   link:
     url: https://mastodon.social/@heliographe_studio/115890819509545391
