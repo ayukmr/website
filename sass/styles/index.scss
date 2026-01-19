@@ -3,6 +3,10 @@
   align-items: center;
   gap: 5px;
 
+  a {
+    translate: 0 1px;
+  }
+
   .lucide {
     width: 12px;
     height: 12px;
@@ -12,8 +16,7 @@
   img {
     image-rendering: pixelated;
     margin: 0;
-    width: 18px;
-    height: 18px;
+    width: 17px;
   }
 }
 

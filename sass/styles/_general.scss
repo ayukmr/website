@@ -1,11 +1,11 @@
 :root {
-  --visit:  #4422ee;
+  --visit: #4422ee;
   --visit2: #3311c0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --visit:  #7f7fff;
+    --visit: #7f7fff;
     --visit2: #6666e0;
   }
 }
@@ -18,10 +18,19 @@
 }
 
 @font-face {
-  font-family: Cozette;
-  src: url('/font/CozetteVector.woff2') format('woff2');
+  font-family: Cosm;
+  src: url('/font/Cosm.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+}
+
+header p, .favicon-link {
+  font-family: Cosm;
+  font-size: 1.075em;
+}
+
+header a {
+  text-decoration: none;
 }
 
 h1 {
@@ -32,9 +41,9 @@ h1 {
 }
 
 h2 {
-  font-family: Cozette, serif;
+  font-family: Cosm;
   font-weight: normal;
-  font-size: 1.35em;
+  font-size: 1.3em;
 
   .lucide {
     height: 26px;

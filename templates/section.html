@@ -11,13 +11,15 @@
 <header>
     {{ macros::title(title=section.title) }}
 
-    <i data-lucide="tags"></i>
-    <a href="/tags">Tags</a>
+    <p>
+        <i data-lucide="tags"></i>
+        <a href="/tags">Tags</a>
 
-    <span class="spacer">-</span>
+        <span class="spacer">-</span>
 
-    <i data-lucide="rss"></i>
-    <a href="/atom.xml">Feed</a>
+        <i data-lucide="rss"></i>
+        <a href="/atom.xml">Feed</a>
+    </p>
 </header>
 
 {{ macros::posts(posts=section.pages) }}

@@ -11,17 +11,19 @@
 <header>
     {{ macros::title(title=page.title) }}
 
-    {% if page.date %}
-        {{ page.date | date(format="%Y-%m-%d @ %l %p") }}
-    {% endif %}
+    <p>
+        {% if page.date %}
+            {{ page.date | date(format="%Y-%m-%d @ %l %p") }}
+        {% endif %}
 
-    {% if page.taxonomies.tags %}
-        <span class="spacer">-</span>
+        {% if page.taxonomies.tags %}
+            <span class="spacer">-</span>
 
-        {% for tag in page.taxonomies.tags %}
-            <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>{% if not loop.last %},{% endif %}
-        {% endfor %}
-    {% endif %}
+            {% for tag in page.taxonomies.tags %}
+                <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>{% if not loop.last %},{% endif %}
+            {% endfor %}
+        {% endif %}
+    </p>
 </header>
 
 {% if not page.extra.sections %}

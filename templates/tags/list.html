@@ -19,8 +19,12 @@
                 <i data-lucide="tag"></i>
                 <a href="{{ tag.path }}">#{{ tag.name }}</a>
             </span>
+
             <span class="separator"></span>
-            <span>{{ tag.pages | length }} posts</span>
+
+            <span class="posts">
+                {{ tag.pages | length }} posts
+            </span>
         </div>
     {% endfor %}
 </section>
