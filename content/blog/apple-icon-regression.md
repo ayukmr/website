@@ -18,4 +18,4 @@ extra:
 
 A very correct take.
 
-I don't really get how the oldest ink pot icon is the 'best', but the new liquid glass icons are so much worse than the others that it's genuinely saddening. I personally think that the initial Big Sur icons were the epitome of Apple's modern icon designs.
+I don't really get how the oldest ink pot icon is the 'best', but the new Liquid Glass icons are so much worse than the others that it's genuinely saddening. I personally think that the initial Big Sur icons were the epitome of Apple's modern icon designs.
