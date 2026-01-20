@@ -23,7 +23,7 @@
             <span class="separator"></span>
 
             <span class="posts">
-                {{ tag.pages | length }} posts
+                {{ tag.pages | length }} post{% if tag.pages | length != 1 %}s{% endif %}
             </span>
         </div>
     {% endfor %}
