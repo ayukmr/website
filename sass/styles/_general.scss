@@ -1,4 +1,7 @@
 :root {
+  --caslon: LibreCaslonCondensed, Georgia, serif;
+  --cosm: Cosm, 'Helvetica Neue', sans-serif;
+
   --visit: #4422ee;
   --visit2: #3311c0;
 }
@@ -25,7 +28,7 @@
 }
 
 header p, .favicon-link {
-  font-family: Cosm;
+  font-family: var(--cosm);
   font-size: 1.075em;
 }
 
@@ -34,14 +37,14 @@ header a {
 }
 
 h1 {
-  font-family: LibreCaslonCondensed, serif;
+  font-family: var(--caslon);
   font-size: 1.85em;
   font-weight: normal;
   margin-bottom: 8px;
 }
 
 h2 {
-  font-family: Cosm;
+  font-family: var(--cosm);
   font-weight: normal;
   font-size: 1.3em;
 
