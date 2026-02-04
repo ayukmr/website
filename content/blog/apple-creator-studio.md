@@ -6,7 +6,7 @@ taxonomies:
     - apple
 extra:
   link:
-    url: https://www.apple.com/newsroom/2026/01/introducing-apple-creator-studio-an-inspiring-collection-of-creative-apps
+    url: https://apple.com/newsroom/2026/01/introducing-apple-creator-studio-an-inspiring-collection-of-creative-apps
     title: Apple introduces Apple Creator Studio
 ---
 

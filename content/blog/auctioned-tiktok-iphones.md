@@ -6,7 +6,7 @@ taxonomies:
     - hacker-news
 extra:
   link:
-    url: https://www.nytimes.com/2025/01/23/business/tiktok-app-iphones.html
+    url: https://nytimes.com/2025/01/23/business/tiktok-app-iphones.html
     title: Used iPhones with TikTok sold for $3000
   via:
     url: https://slashdot.org/story/25/01/25/0450205
