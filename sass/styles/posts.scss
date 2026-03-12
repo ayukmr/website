@@ -26,8 +26,7 @@ section {
   }
 
   .date {
-    font-family: var(--cosm);
-    translate: 0 1px;
+    font-variant-numeric: tabular-nums;
   }
 
   @media only screen and (max-width: 650px) {
