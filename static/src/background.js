@@ -1,8 +1,8 @@
 const c = document.querySelector('#background');
 const ctx = c.getContext('2d');
 
-const header = document.querySelector('#top');
-const pages = document.querySelector('#pages');
+const header = document.querySelector('header');
+const section = document.querySelector('section');
 
 let grid = Array.from({ length: 125 }, () => (
   Array.from({ length: 125 }, () => Math.random() < 0.125)
@@ -80,7 +80,7 @@ window.addEventListener('resize', resize);
 
 function loop() {
   clear(header);
-  clear(pages);
+  clear(section);
   step();
   render();
 }
