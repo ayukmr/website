@@ -10,33 +10,34 @@
 
 {% block content %}
 <div id="content">
-    <header>
-        {{ macros::title(title="ayukmr") }}
+    <header id="main-header">
+        <div class="left">
+            <img src="/assets/pfp/pfp.png">
 
-        <p>
-            <a href="https://github.com/ayukmr"><img class="logo" style="mix-blend-mode: difference; filter: invert(100%);" src="assets/logos/github.svg"></a>
+            <p>
+                <a href="https://github.com/ayukmr"><img class="logo" style="mix-blend-mode: difference; filter: invert(100%);" src="assets/logos/github.svg"></a>
+                <a href="https://bsky.app/profile/ayukmr.com"><img class="logo" src="assets/logos/bluesky.svg"></a>
+                <a href="https://linkedin.com/in/ayushk9"><img class="logo" src="assets/logos/linkedin.svg"></a>
+                <a href="mailto:contact@ayukmr.com"><img class="logo" src="assets/logos/mail.svg"></a>
+            </p>
+        </div>
 
-            <span class="spacer"></span>
-
-            <a href="https://bsky.app/profile/ayukmr.com"><img class="logo" src="assets/logos/bluesky.svg"></a>
-
-            <span class="spacer"></span>
-
-            <a href="https://news.ycombinator.com/user?id=ayukmr"><img class="logo" src="assets/logos/ycombinator.svg"></a>
-
-            <span class="spacer"></span>
-
-            <a href="mailto:contact@ayukmr.com"><img class="logo" src="assets/logos/gmail.svg"></a>
-        </p>
+        <div class="right">
+            <p><strong>Ayush Kumar</strong> is a high schooler in the Bay Area.</p>
+            <p>He runs Octalwise, a small software studio, and is the programming lead for FRC Team 4904.</p>
+            <p>
+                His work spans
+                <a href="https://github.com/ayukmr/dauntless">robotics</a>,
+                <a href="https://github.com/ayukmr/poplar">systems</a> <a href="https://github.com/ayukmr/glaze">programming</a>,
+                <a href="https://github.com/ayukmr/pendant">embedded</a> <a href="https://github.com/ayukmr/flinx">hardware</a>,
+                <a href="https://github.com/ayukmr/nn">machine learning</a>,
+                and <a href="https://github.com/ayukmr/hive-webapp">full-stack</a>, along with
+                <a href="https://octalwise.com/acidity">several</a> <a href="https://octalwise.com/tracks">published</a> <a href="https://octalwise.com/fleuron">apps</a>.
+            </p>
+        </div>
     </header>
 
     <section id="pages">
-        <h2 class="header">
-            <img id="icon-about" src="/assets/icons/about.png">
-            <a href="/about">About</a>
-        </h2>
-        Information about this site.
-
         <h2 class="header">
             <img id="icon-blog" src="/assets/icons/blog.png">
             <a href="/blog">Blog</a>

@@ -19,11 +19,11 @@
   font-style: normal;
 }
 
-header p, .favicon-link {
+header:not(#main-header) p, .favicon-link {
   font-size: 1.075em;
 }
 
-header a {
+header:not(#main-header) a {
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h2 {
 }
 
 .spacer {
-  margin: 0 2px;
+  margin: 0 1px;
 }
 
 .lucide {
@@ -59,11 +59,9 @@ a:has(.lucide) {
 }
 
 .logo {
-  width: 16px;
-  height: 16px;
-
-  translate: 0 6.5px;
-  margin: 0 2px 4px 0;
+  width: 21px;
+  height: 21px;
+  margin: 0 -0.5px;
 }
 
 .link {
