@@ -1,20 +1,22 @@
 const c = document.querySelector('#background');
 const ctx = c.getContext('2d');
-const content = document.querySelector('#content');
+
+const header = document.querySelector('#top');
+const pages = document.querySelector('#pages');
 
 let grid = Array.from({ length: 125 }, () => (
   Array.from({ length: 125 }, () => Math.random() < 0.125)
 ));
 
-function clear() {
-  const pos = content.getBoundingClientRect();
+function clear(elem) {
+  const pos = elem.getBoundingClientRect();
   const scale = Math.ceil(Math.max(c.width, c.height) / 125);
 
-  const width = Math.round(pos.width  / scale) + 16;
+  const width = Math.round(pos.width / scale) + 16;
   const height = Math.round(pos.height / scale) + 10;
 
   const left = Math.round(pos.left / scale) - 6;
-  const top = Math.round(pos.top  / scale) - 5;
+  const top = Math.round(pos.top / scale) - 5;
 
   for (let y = 0; y < height; y++) {
     for (let x = 0; x < width; x++) {
@@ -77,7 +79,8 @@ resize();
 window.addEventListener('resize', resize);
 
 function loop() {
-  clear();
+  clear(header);
+  clear(pages);
   step();
   render();
 }

@@ -19,11 +19,11 @@
   font-style: normal;
 }
 
-header:not(#main-header) p, .favicon-link {
+header:not(#top) p, .favicon-link {
   font-size: 1.075em;
 }
 
-header:not(#main-header) a {
+header:not(#top) a {
   text-decoration: none;
 }
 
