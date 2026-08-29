@@ -9,11 +9,16 @@
     min-width: 100px;
     width: 100px;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 
     .pfp {
       border-radius: 50%;
       margin: 0;
+    }
+
+    .icons {
+      display: flex;
+      gap: 7px;
     }
   }
 
@@ -41,11 +46,13 @@
     height: 12px;
     margin-left: 2px;
   }
+}
 
+.header, .icons {
   img {
     image-rendering: pixelated;
     margin: 0;
-    width: 17px;
+    width: 16px;
   }
 }
 
