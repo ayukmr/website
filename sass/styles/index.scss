@@ -1,3 +1,9 @@
+.icon {
+  image-rendering: pixelated;
+  margin: 0;
+  width: 16px;
+}
+
 #top {
   display: flex;
   gap: 20px;
@@ -45,14 +51,6 @@
     width: 12px;
     height: 12px;
     margin-left: 2px;
-  }
-}
-
-.header, .icons {
-  img {
-    image-rendering: pixelated;
-    margin: 0;
-    width: 16px;
   }
 }
 
