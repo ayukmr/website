@@ -371,12 +371,14 @@
     let ov;
 
     document.body.onclick = () => {
-      ov.animate({ opacity: [1, 0] }, 100).finished.then(() => ov.remove());
+      if (ov) ov.animate({ opacity: [1, 0] }, 100).finished.then(() => ov.remove());
     }
 
     for (const elem of document.querySelectorAll('.project img')) {
       elem.onclick = (e) => {
         e.stopPropagation();
+
+        if (ov) ov.remove();
 
         ov = document.createElement('div');
         ov.id = 'overlay';
