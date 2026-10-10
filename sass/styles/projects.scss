@@ -26,15 +26,45 @@ hr {
 
   img {
     margin: 0;
-
-    max-height: 225px;
-    max-width: 300px;
+    cursor: pointer;
 
     width: auto;
     height: auto;
+    max-height: 225px;
+    max-width: 300px;
 
     @media only screen and (max-width: 650px) {
       display: none;
     }
   }
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: color-mix(in srgb, var(--bg) 75%, transparent);
+
+  img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+
+    max-height: 60vh;
+    max-width: 60vw;
+
+    border-radius: 20px;
+    filter:
+      drop-shadow(0 2px 3px #0000001a)
+      drop-shadow(0 5px 10px #0000001a)
+      drop-shadow(0 10px 22px #0000001f)
+      drop-shadow(0 14px 40px #00000022);
+  }
+}
+
+html:has(#overlay) {
+  overflow: hidden;
 }

@@ -45,7 +45,7 @@
         </div>
 
         <div class="images">
-            <img src="https://static.ayukmr.com/repos/tracks/1.png">
+            <img class="zoom" src="https://static.ayukmr.com/repos/tracks/1.png">
             <img src="https://static.ayukmr.com/repos/tracks-flutter/2.png">
         </div>
     </div>
@@ -366,4 +366,28 @@
         <img src="https://static.ayukmr.com/repos/stationery/1.png">
     </div>
 </section>
+
+<script>
+    let ov;
+
+    document.body.onclick = () => {
+      ov.animate({ opacity: [1, 0] }, 100).finished.then(() => ov.remove());
+    }
+
+    for (const elem of document.querySelectorAll('.project img')) {
+      elem.onclick = (e) => {
+        e.stopPropagation();
+
+        ov = document.createElement('div');
+        ov.id = 'overlay';
+
+        const img = document.createElement('img');
+        img.src = elem.src;
+        ov.appendChild(img);
+
+        ov.animate({ opacity: [0, 1] }, 100);
+        document.querySelector('main').appendChild(ov);
+      };
+    }
+</script>
 {% endblock %}
